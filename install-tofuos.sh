@@ -262,7 +262,7 @@ else
 fi
 
 print_header "Cloning TofuOS Repository"
-git clone https://github.com/Tofaa2/tofuos.git -b main --depth=1 ~/tofuos
+git clone https://github.com/Tofaa2/tofuos.git -b master --depth=1 ~/tofuos
 cd ~/tofuos || exit 1
 
 print_header "Git Configuration"
