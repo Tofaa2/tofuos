@@ -1,7 +1,7 @@
 {
   # Git Configuration ( For Pulling Software Repos )
   gitUsername = "Tofaa2";
-  gitEmail = "tofik.adigozalov@gmail.com";
+  gitEmail = "82680183+Tofaa2@users.noreply.github.com";
 
   # Set Displau Manager
   # `tui` for Text login
@@ -12,7 +12,7 @@
   # Emable/disable bundled applications
   tmuxEnable = false;
   alacrittyEnable = false;
-  weztermEnable = false;
+  weztermEnable = true;
   ghosttyEnable = false;
   vscodeEnable = false;
   # Note: This is evil-helix with VIM keybindings by default
@@ -36,36 +36,11 @@
   # Choose between noctalia or waybar
   barChoice = "waybar";
 
-  # Waybar Settings (used when barChoice = "waybar")
-  clock24h = false;
+  clock24h = true;
 
-  # Program Options
-  # Set Default Browser (google-chrome-stable for google-chrome)
-  # This does NOT install your browser
-  # You need to install it by adding it to the `packages.nix`
-  # or as a flatpak
-  browser = "brave";
+  browser = "firefox";
 
-  # Host-level default applications (picked up by Home Manager xdg.mimeApps)
-  # Uncomment and adjust the .desktop IDs to set per-host defaults.
-  # mimeDefaultApps = {
-  #   # PDFs
-  #   "application/pdf" = ["okular.desktop"];
-  #   "application/x-pdf" = ["okular.desktop"];
-  #   # Web browser
-  #   "x-scheme-handler/http"  = ["google-chrome.desktop"];  # or brave-browser.desktop, firefox.desktop
-  #   "x-scheme-handler/https" = ["google-chrome.desktop"];
-  #   "text/html"              = ["google-chrome.desktop"];
-  #   # Files
-  #   "inode/directory" = ["thunar.desktop"];      # file manager
-  #   "text/plain"      = ["nvim.desktop"];        # or code.desktop
-  # };
-
-  # Available Options:
-  # Kitty, ghostty, wezterm, aalacrity
-  # Note: kitty, wezterm, alacritty have to be enabled in `variables.nix`
-  # Setting it here does not enable it. Kitty is installed by default
-  terminal = "kitty"; # Set Default System Terminal
+  terminal = "wezterm"; # Set Default System Terminal
 
   keyboardLayout = "us";
   keyboardVariant = "";
@@ -95,9 +70,9 @@
   # Default background
   # Add new images to ~/tofuos/wallpapers
   #stylixImage = ../../wallpapers/mountainscapedark.jpg;
-  #stylixImage = ../../wallpapers/AnimeGirlNightSky.jpg;
+  stylixImage = ../../wallpapers/AnimeGirlNightSky.jpg;
   #stylixImage = ../../wallpapers/Anime-Purple-eyes.png;
-  stylixImage = ../../wallpapers/Rainnight.jpg;
+  #stylixImage = ../../wallpapers/Rainnight.jpg;
   #stylixImage = ../../wallpapers/zaney-wallpaper.jpg;
   #stylixImage = ../../wallpapers/nix-wallpaper-stripes-logo.png;
   #stylixImage = ../../wallpapers/beautifulmountainscape.jpg;
@@ -116,8 +91,8 @@
   #waybarChoice = ../../modules/home/waybar/waybar-tony.nix;
   #waybarChoice = ../../modules/home/waybar/waybar-ddubsos-v1.nix;
   #waybarChoice = ../../modules/home/waybar/waybar-mecha.nix;
-  waybarChoice = ../../modules/home/waybar/waybar-jak-catppuccin.nix;
-  #waybarChoice = ../../modules/home/waybar/waybar-jak-ml4w-modern.nix;
+  #waybarChoice = ../../modules/home/waybar/waybar-jak-catppuccin.nix;
+  waybarChoice = ../../modules/home/waybar/waybar-jak-ml4w-modern.nix;
   #waybarChoice = ../../modules/home/waybar/waybar-jak-oglo-simple.nix;
   #waybarChoice = ../../modules/home/waybar/waybar-jwt-catppuccin.nix;
   #waybarChoice = ../../modules/home/waybar/waybar-jwt-transparent.nix;
@@ -136,8 +111,8 @@
   #animChoice = ../../modules/home/hyprland/animations-hyde-optimized.nix;
   #animChoice = ../../modules/home/hyprland/animations-mahaveer-me-1.nix;
   #animChoice = ../../modules/home/hyprland/animations-mahaveer-me-2.nix;
-  animChoice = ../../modules/home/hyprland/animations-ml4w-classic.nix;
-  #animChoice = ../../modules/home/hyprland/animations-ml4w-fast.nix;
+  #animChoice = ../../modules/home/hyprland/animations-ml4w-classic.nix;
+  animChoice = ../../modules/home/hyprland/animations-ml4w-fast.nix;
   #animChoice = ../../modules/home/hyprland/animations-ml4w-high.nix;
 
   # Set network hostId if required (needed for zfs)

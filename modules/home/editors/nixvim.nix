@@ -183,7 +183,7 @@
           html.enable = true;
           cssls.enable = true;
           clangd.enable = true;
-          zls.enable = false;
+          zls.enable = true;
           marksman.enable = false;
           hyprls.enable = true;
           # hyprls is optional; keep tools available via extraPackages
@@ -330,6 +330,7 @@
       ripgrep
       fd
       bat
+      zls
       # Wayland clipboard provider used by Neovim for system clipboard access
       wl-clipboard
       lazygit
