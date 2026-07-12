@@ -7,11 +7,19 @@
     #  Add local pacakaged here
     firefox
     wezterm
+    vesktop
+    osu-lazer-bin
+    spotify
+    heroic
+    steam
+    jetbrains.idea-oss
+    pandora-launcher
   ];
   # Add host specific flatpaks here
   services = {
     flatpak = {
       packages = [
+        "org.vinegarhq.Sober"
       ];
     };
   };

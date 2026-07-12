@@ -7,7 +7,7 @@
   # `tui` for Text login
   # `sddm` for graphical GUI (default)
   # SDDM background is set with stylixImage
-  displayManager = "tui";
+  displayManager = "ssdm";
 
   # Emable/disable bundled applications
   tmuxEnable = false;
@@ -16,7 +16,7 @@
   ghosttyEnable = false;
   vscodeEnable = false;
   # Note: This is evil-helix with VIM keybindings by default
-  helixEnable = false;
+  helixEnable = true;
   #To install: Enable here, zcli rebuild, then run zcli doom install
   doomEmacsEnable = false;
 
@@ -34,7 +34,7 @@
 
   # Bar/Shell Settings
   # Choose between noctalia or waybar
-  barChoice = "waybar";
+  barChoice = "noctalia";
 
   clock24h = true;
 
@@ -70,11 +70,13 @@
   # Default background
   # Add new images to ~/tofuos/wallpapers
   #stylixImage = ../../wallpapers/mountainscapedark.jpg;
-  stylixImage = ../../wallpapers/AnimeGirlNightSky.jpg;
+  #stylixImage = ../../wallpapers/AnimeGirlNightSky.jpg;
+  stylixImage = ../../wallpapers/pink_haired_lost_lady.jpg;
   #stylixImage = ../../wallpapers/Anime-Purple-eyes.png;
   #stylixImage = ../../wallpapers/Rainnight.jpg;
   #stylixImage = ../../wallpapers/zaney-wallpaper.jpg;
-  #stylixImage = ../../wallpapers/nix-wallpaper-stripes-logo.png;
+  # stylixImage = ../../wallpapers/nix-wallpaper-stripes-logo.png;
+  #stylixImage = ../../wallpapers/alena-aenami-cold.webp;
   #stylixImage = ../../wallpapers/beautifulmountainscape.jpg;
 
   # Set Waybar
@@ -92,13 +94,14 @@
   #waybarChoice = ../../modules/home/waybar/waybar-ddubsos-v1.nix;
   #waybarChoice = ../../modules/home/waybar/waybar-mecha.nix;
   #waybarChoice = ../../modules/home/waybar/waybar-jak-catppuccin.nix;
-  waybarChoice = ../../modules/home/waybar/waybar-jak-ml4w-modern.nix;
+  #waybarChoice = ../../modules/home/waybar/waybar-jak-ml4w-modern.nix;
   #waybarChoice = ../../modules/home/waybar/waybar-jak-oglo-simple.nix;
-  #waybarChoice = ../../modules/home/waybar/waybar-jwt-catppuccin.nix;
+  waybarChoice = ../../modules/home/waybar/waybar-jwt-catppuccin.nix;
   #waybarChoice = ../../modules/home/waybar/waybar-jwt-transparent.nix;
   #waybarChoice = ../../modules/home/waybar/waybar-jwt-ultradark.nix;
   #waybarChoice = ../../modules/home/waybar/waybar-pctrade-catppuccin.nix;
   #waybarChoice = ../../modules/home/waybar/waybar-old-ddubsos.nix;
+  #waybarChoice = ../../modules/home/waybar/Jerry-waybar.nix;
 
   # Set Animation style
   # Available options are:

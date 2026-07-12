@@ -1,6 +1,7 @@
 English | [Español](./wezterm.cheatsheet.es.md)
 
 # WezTerm on ZaneyOS — Summary & Cheatsheet
+
 ## 🚀 Summary of modules/home/terminals/wezterm.nix
 
 - Program
@@ -25,18 +26,20 @@ English | [Español](./wezterm.cheatsheet.es.md)
 ## 🗝️ Keybindings Cheatsheet
 
 Tabs
+
 - Alt+t — Spawn tab (CurrentPaneDomain)
 - Alt+w — Close current tab (no confirm)
-- Alt+n — Next tab
+- Alt+n — Next tabfalse
 - Alt+p — Previous tab
 
 Panes
+
 - Alt+v — Split vertical
 - Alt+h — Split horizontal
 - Alt+q — Close current pane (no confirm)
 - Alt+Arrow keys — Activate pane in arrow direction
 
 Notes
+
 - Lua contains optional NVIDIA-related tuning commented out.
 - default_prog can be enabled if Starship prompt has startup issues.
-
