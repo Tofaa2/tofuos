@@ -80,6 +80,18 @@ in {
       enable = true;
     };
     settings = {
+      decoration = {
+        rounding = 10;
+        blur = {
+          enabled = false;
+        };
+        shadow = {
+          enabled = true;
+          range = 4;
+          render_power = 3;
+          color = "rgba(1a1a1aee)";
+        };
+      };
       input =
         {
           kb_layout = hyprKbLayout;
@@ -157,23 +169,6 @@ in {
         split_bias = 0;
         precise_mouse_move = false;
         special_scale_factor = 0.8;
-      };
-
-      decoration = {
-        rounding = 10;
-        blur = {
-          enabled = true;
-          size = 5;
-          passes = 3;
-          ignore_opacity = false;
-          new_optimizations = true;
-        };
-        shadow = {
-          enabled = true;
-          range = 4;
-          render_power = 3;
-          color = "rgba(1a1a1aee)";
-        };
       };
 
       ecosystem = {

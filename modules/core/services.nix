@@ -26,6 +26,9 @@
         else true;
       autodetect = true;
     };
+    udev.extraRules = ''
+      KERNEL=="uinput", MODE="0660", GROUP="uinput"
+    '';
     pipewire = {
       enable = true;
       alsa.enable = true;

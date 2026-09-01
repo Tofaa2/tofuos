@@ -116,7 +116,7 @@ in {
       ];
     };
   };
-
+  xdg.configFile."ghostty/config".force = true;
   # Desktop entry for ghostty-bg
   home.file."${config.xdg.dataHome}/applications/ghostty-bg.desktop".text = ''
     [Desktop Entry]

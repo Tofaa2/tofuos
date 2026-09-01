@@ -36,6 +36,8 @@ in {
       "scanner"
       "wheel" #sudo access
       "vboxusers" #Virtual Box
+      "input"
+      "uinput"
     ];
     shell = pkgs.zsh;
     ignoreShellProgramCheck = true;

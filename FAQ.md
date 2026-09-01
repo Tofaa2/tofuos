@@ -995,7 +995,7 @@ It will be announced on the Zaney [Discord](https://discord.gg/W7efsSDS) server.
 - Using the `zcli rebuild` or `zcli update` will search for this file causing
   rebuild failures
 - If you find other files that cause this you can add them in the
-  `zaneyos/modules/home/scripts/default.nix`
+  `tofuos/modules/home/scripts/default.nix`
   <br>
 
 ```text

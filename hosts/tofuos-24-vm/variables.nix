@@ -54,7 +54,7 @@
   #   "application/pdf" = ["okular.desktop"];
   #   "application/x-pdf" = ["okular.desktop"];
   #   # Web browser
-  #   "x-scheme-handler/http"  = ["google-chrome.desktop"];  # or brave-browser.desktop, firefox.desktop
+  #   "x-scheme-handler/http"  = ["google-chrome.desktop"];
   #   "x-scheme-handler/https" = ["google-chrome.desktop"];
   #   "text/html"              = ["google-chrome.desktop"];
   #   # Files

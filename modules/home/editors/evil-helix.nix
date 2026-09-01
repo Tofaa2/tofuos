@@ -12,6 +12,7 @@ in {
       #marksman   # causes dotnet and dotnet-swr to build which takes hours
       multimarkdown
       taplo
+      wgsl-analyzer
       nil
       jq-lsp
       vscode-langservers-extracted
@@ -23,6 +24,8 @@ in {
       docker-compose
       docker-language-server
       typescript-language-server
+      zls
+      lldb
     ]
     else []
   );
@@ -49,6 +52,11 @@ in {
     then ''
       theme = "catppuccin_mocha"
       #theme = "ao"
+
+      [editor.cursor-shape]
+      insert = "bar"
+      normal = "block"
+      select = "underline"
 
       [editor]
       evil = true

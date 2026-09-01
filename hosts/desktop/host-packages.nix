@@ -5,15 +5,25 @@
 }: {
   environment.systemPackages = with pkgs; [
     #  Add local pacakaged here
+    waydroid
+    libresprite
     firefox
-    wezterm
+    ghostty
     vesktop
     osu-lazer-bin
     spotify
     heroic
     steam
-    jetbrains.idea-oss
     pandora-launcher
+    direnv
+    nix-direnv
+    nyaa
+    qbittorrent
+    godot
+    pi-coding-agent
+    zed-editor
+    opencode
+    blender
   ];
   # Add host specific flatpaks here
   services = {

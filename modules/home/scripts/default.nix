@@ -47,6 +47,7 @@
       inherit pkgs profile;
       backupFiles = [
         ".config/mimeapps.list.backup"
+        ".config/ghostty/config.backup"
       ];
     })
   ];

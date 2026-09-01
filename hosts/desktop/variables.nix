@@ -7,13 +7,13 @@
   # `tui` for Text login
   # `sddm` for graphical GUI (default)
   # SDDM background is set with stylixImage
-  displayManager = "ssdm";
+  displayManager = "tui";
 
   # Emable/disable bundled applications
   tmuxEnable = false;
   alacrittyEnable = false;
-  weztermEnable = true;
-  ghosttyEnable = false;
+  weztermEnable = false;
+  ghosttyEnable = true;
   vscodeEnable = false;
   # Note: This is evil-helix with VIM keybindings by default
   helixEnable = true;
@@ -40,7 +40,7 @@
 
   browser = "firefox";
 
-  terminal = "wezterm"; # Set Default System Terminal
+  terminal = "ghostty"; # Set Default System Terminal
 
   keyboardLayout = "us";
   keyboardVariant = "";
